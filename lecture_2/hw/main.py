@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, status, Query
 from fastapi.responses import JSONResponse
 from typing import Dict, Any, List, Annotated
 from pydantic import BaseModel, NonNegativeInt, PositiveInt, NonNegativeFloat
-from models import Item, Cart, CartItem, ItemPost
+from lecture_2.hw.shop_api.models import Item, Cart, CartItem, ItemPost
 
 app = FastAPI(title="Shop API")
 
